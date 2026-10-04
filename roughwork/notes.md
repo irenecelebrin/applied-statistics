@@ -47,3 +47,10 @@ They will check that the file has been like that since day 1 --> so peple are no
     - running the code 
 - About the author: write about you (the author)
 
+### executing cells 
+
+- remember to restart the kernel and run everything to avoid errors in order of execition
+- remember to commit final notebook with outputs (restart + run)
+
+
+### 
