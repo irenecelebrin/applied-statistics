@@ -28,3 +28,22 @@ Deadline to submit repo: 30 September
 Free to use codespaces / VS code / other IDEs 
 
 
+## Class 2
+
+
+### Agents 
+
+AGENTS.md 
+
+It's a context file you put in the root of your repo, it provides info to guide the work of your agents. 
+They will check that the file has been like that since day 1 --> so peple are not just having agents make the stuff for them. 
+
+### Readme 
+
+- what the repo includes 
+- Getting started/Requirements: software required to run the repo /how to get started 
+- About the code: 
+    - quick look: write about the notebook and what it includes, what the code does 
+    - running the code 
+- About the author: write about you (the author)
+
