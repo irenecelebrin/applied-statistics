@@ -262,6 +262,18 @@ This gives us a new view in the results and probabilities
 np.unique to see how many times each combination showed up. 
 Unique will create a flat array and create a flat array, so you wanna compute across the axis 0 (rows)
 
+unique values are not perfectly 250 each but similar 
+01 is conted as different from 01, you need to combine them. 
+
+you can plot them as they are but not that meaningful. 
+it should be 3 otcomes, not 4 (actual outcomes)
+
+bars will even out if you do thething 1 hundred thousand times. 
+
+Importan being clear about outcomes, random variables, what you are actualluy measuring. 
+
+
+
 
 
 
