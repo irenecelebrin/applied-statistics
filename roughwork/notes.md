@@ -229,6 +229,44 @@ Now change the first number. from 1 to 2. Instad of 1 coin, 2 coins. flipped 100
 if you plot this, you see normal distribution. 
 
 
+## class 6 
+
+### video 1 - Recap 
+
+**Probability distribution** --> different proportions of each outcome (o heads, 1 or 2)
+
+**Random variable** --> probabilistic variable, you don't know what it's gonna be. Called X or PI 
+
+**Outcome** --> Result of the actual experiment: which values each come has 
+
+**Operation** --> The operation following an outcome which derives the random variable 
+
+**Event** --> A set of outcome. Only one happens, but but the event includes all 3 
+
+### video 2: Individual outcomes 
+
+Before we used numpy random binomial np.random.binomiam
+
+n. of coins you wanna flip, probability of each, how many times you wanna generate results 
+
+Alternative: show individual results. Tell numpty to do it. 
+Third argument is a tuple (1000, 2) -- tuples cannot be changed, they are easier to process. --> give a list of 1000 with 2 col. 
+
+The first is one experiment with 1 flip and 3 possibe outcomes, the second has two flips each with 2 possible outcomes. they make up 3 total outcomes. 
+
+- You can get different results re-running the code. 
+- we don't care about the order, but we do wanna keep track of which is which. 
+
+This gives us a new view in the results and probabilities 
+
+np.unique to see how many times each combination showed up. 
+Unique will create a flat array and create a flat array, so you wanna compute across the axis 0 (rows)
+
+
+
+
+
+
 
 
 
