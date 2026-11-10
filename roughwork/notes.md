@@ -272,6 +272,59 @@ bars will even out if you do thething 1 hundred thousand times.
 
 Importan being clear about outcomes, random variables, what you are actualluy measuring. 
 
+### video 3: hundred coins 
+
+Flip 100 coins. 
+How many outcomes are possible? 101 different possible values. 
+do a lot of experiments --> you wanna see all possible outcomes. 
+
+
+If you run the function a hundred million times you still don't see all the possible outcomes. Is there a reason why some values are not showing up? is it random? --> that's why you need to run the experiment a n number of times. 
+
+If you run the experiment a significant number of times, why you don't see some of them??
+
+Plot the numbers --> it shows in the middle there is ~50/51 heads. the most number of outcomes in there, and moving away you get less and less. 
+
+(advice: put tickts at 45 digrees or every 5) --> tidy up things, that's part of the job. 
+
+50 is in the middle. the bar chart is symmetrical around it, although not perfect. Samse as the dice bar chart. 
+
+What is the shape? the line is straight but to what degree? 
+
+
+### video 4:normal distribution
+
+The shape of the bar chart looks like a bell curve, definitely not a triangle. 
+
+it start flat, goes up in a spike and than spikes down and slows down 
+
+**NORMAL DISTRIBUTION** 
+
+a couple of plots are associated with it, centred at differnt points. if they are taller that are narrower, if shorter, wider.
+
+the **sigma** is the spread form zero. Higher sigma gives you a wider plot. 
+
+
+**exp** = 2.71 
+
+e to the power of that fraction. (see formula on wikipedia, normal distribution)
+
+**mu** is a number like sigma. 
+
+By default we will use the red line, so when x is 0, sigma is 1. --> default values. 
+
+see in notebook how it was calculated using numpy. 
+
+what you do: 
+- you create the functin from the mathematical function to python with numpy. 
+- you get a numpy array of x
+- you calculate y using the function 
+- you plot the data. 
+
+Do it with the dice results. for y use the proportion, not the number or roll. 
+
+
+
 
 
 
