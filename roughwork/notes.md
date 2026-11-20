@@ -323,10 +323,55 @@ what you do:
 
 Do it with the dice results. for y use the proportion, not the number or roll. 
 
+## Class 7 
+
+### Video 2 continuous distribution 
+
+Experiment with normal distribution --> generate values with numpy.random.normal 
+
+mu is the middle of the deistribution 
+sigma is standard deviation 
+if mu is zero, the  for proability density simplifies 
+
+you can use np.random.normal specififying the center (default is 0), the size etc 
+
+normal distribution is a continuous distribution, not discrete (like coin flipping)
+so how to fit the probability curve into a continuous dataset? 
+
+### video 3: histograms 
+
+generate data with np.random.normal and big sample size 
+
+create a blank plot and the values with a histogram. 
+with discrete data you can just do a bar chart. 
+
+Bins: values on the left is includes, on the right is not, except for the very last values. 
 
 
+**sampling** if you have a lot og values, you can get sets of values and get the mean of each sample --> this reduces the size of your dataset. 
+
+### video 4: testinig normal data 
+
+once you have data, you wanna verify how it looks like. 2 methods 
+1)  create a probability plot with stats package. 
+
+Ordered values vs theoretical values --> real values and values expected by normal distribution. 
+if you are seeing more values earlier than center or after, the dots and the line do not align. 
+It tells you how close to normal distribution the values are. 
+
+2) shapiro wilke test 
+tests the null hypothesis that data are normally distributed. 
+final score is 0 to 1. 
+sometimes it's rejected and you can justify the distribution with statistical test
 
 
+another thing: whst is the probablily of the area under the curve and a total area. 
+probability is higher in the center. how to calculate the area? with integration. 
+you can use numpy and stats 
+
+there are fixed values for the area based on the standard deviation. see graph in wikipedia page for normaò distribution 
+
+with 3 standard deviations you cover around 99% of the values. 
 
 
 
