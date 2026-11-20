@@ -374,6 +374,88 @@ there are fixed values for the area based on the standard deviation. see graph i
 with 3 standard deviations you cover around 99% of the values. 
 
 
+## class 8 
+### video 1: Regression 
+
+see Regression notebook. 
+
+create arrays to define 2 points. plot them. you can plot the points, a line, a dotted line etc 
+
+'ro' --> red big dots 
+r. --> red small dots 
+
+then you can draw a line between the points and the line before and after the points, assuming that the trend is the same
+
+machine learning is about having data and figuring out a theory, for statistics you have a theory and then use data to prove it 
+you need to know the data before investigating it and doing hypothesis testing. 
+how you collect the data and set up the experiment is super meaninful. if you already know what you are providong, you can retrofit the data. 
+
+### video 2 without error 
+
+regression notebook 
+
+get the equation of the line with slope and intercept 
+you can view y values and x values if you want 
+plot the dots --> they result in a line
+
+use np.polyfit to do regression for us.
+it will calculate the relationship between x and y (slope and intercept)
+you can ask the polyfit function which kind of relationship you want: 
+-1 is linear
+-2 is curve
+-3 is sigmoid
+
+polyfit is reverse engineering the relation between x and y from the data points, to find the equation
+
+### video 3: lines with error
+
+use the equation and introduce some error values creating them 
+
+then use polyfit to produce the values from those noisy datasets 
+fit the data with the best regression line.
+
+### video 4: higher powers 
+
+you can calculate the mean values for each dataset
+then subtract it to each data point 
+this way the data is centered around 0 
+then you calculate again the intercept and slope
+
+if you notice that the values donàt really show a straight pattern, you can change the polyfit function and change the relationship from 1 to 2 
+
+give two variables, how do you decide what is the right curve value? 
+
+usually you wanna find the lowest possible power of x that will allow you the smallest margin 
+
+
+### video 5: machine learning 
+
+Multiple linear regression 
+--> best way to fit a line. 
+
+polyfit: take the best distance from each individual point. 
+
+how do you justify your line: 
+you take the x values and the predicted y values. you try to minimize that distance between the points and the line. 
+with this you get an equation thata helps you predict future y values. 
+
+get the distance of all values from the line and try to minize that. 
+you square that value and minimize that 
+
+another way of doing that is machine learning
+--> tune the parameters to minimize the error between real value and predicted value. 
+
+you split the data in training and testing. 
+you create a model and train it with the x (variables) and y target
+then you test it predicting the targets for new variables. 
+you use mean square error to measure performance. 
+
+you can use it or not in the assessment. 
+regression with polyfit or machine learning. 
+
+
+
+
 
 
 
